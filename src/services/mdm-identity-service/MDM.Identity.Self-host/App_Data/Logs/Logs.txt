@@ -1,0 +1,1037 @@
+DEBUG 2023-07-30 13:23:24,597 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-07-30 13:23:25,435 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2023-07-30 13:23:25,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SelfHost.Startup.SelfHostModule, MDM.Identity.Self-host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDM.Identity.Html.IdentityHtmlModule, MDM.Identity.Html, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.Application.IdentityApplicationModule, MDM.Identity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.Core.IdentityCoreModule, MDM.Identity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDMPlatform.MDMPlatformCoreModule, MDMPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDM.AuthorizationModule.AuthorizationModule, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CASA.EntityFrameworkCore.IdentityEntityFrameworkModule, MDM.Identity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CASA.EntityFrameworkCore.MDMEntityFrameworkModule, MDMPlatform.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:25,445 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2023-07-30 13:23:26,016 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 13:23:26,016 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 13:23:26,016 [1    ] o.Configuration.LanguageManagementConfig - Converted AuthorizationModule (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 13:23:26,016 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 13:23:26,478 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CASA.EntityFrameworkCore.IdentityDbContext, MDM.Identity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 13:23:26,531 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-07-30 13:23:26,566 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-07-30 13:23:26,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-07-30 13:23:26,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AuthorizationModule
+DEBUG 2023-07-30 13:23:26,615 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-07-30 13:23:26,618 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-30 13:23:26,623 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AuthorizationModule.MultiTenancy.Tenant, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AuthorizationModule.Authorization.Users.User, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-07-30 13:23:26,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2023-07-30 13:23:26,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Identity.Html.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-07-30 13:23:26,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Users.CreateUserDto
+DEBUG 2023-07-30 13:23:26,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Users.UserDto
+DEBUG 2023-07-30 13:23:26,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Sessions.TenantLoginInfoDto
+DEBUG 2023-07-30 13:23:26,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Sessions.UserLoginInfoDto
+DEBUG 2023-07-30 13:23:26,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.AuthorizationModule.PermissionDto
+DEBUG 2023-07-30 13:23:26,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.MultiTenancy.CreateTenantDto
+DEBUG 2023-07-30 13:23:26,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.MultiTenancy.TenantDto
+INFO  2023-07-30 13:23:28,949 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[CreationTime], [e].[CreatorUserId], [e].[DeleterUserId], [e].[DeletionTime], [e].[DisplayName], [e].[IsDeleted], [e].[LastModificationTime], [e].[LastModifierUserId], [e].[Name]
+FROM [Editions] AS [e]
+WHERE [e].[Name] = N'Standard'
+INFO  2023-07-30 13:23:29,168 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (161ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,176 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,182 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,189 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,195 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,202 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,208 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,215 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,221 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,228 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,235 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,243 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,250 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 13:23:29,268 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[CreationTime], [r].[CreatorUserId], [r].[DeleterUserId], [r].[DeletionTime], [r].[Description], [r].[DisplayName], [r].[IsDefault], [r].[IsDeleted], [r].[IsStatic], [r].[LastModificationTime], [r].[LastModifierUserId], [r].[Name], [r].[NormalizedName], [r].[TenantId]
+FROM [Roles] AS [r]
+WHERE ([r].[TenantId] IS NULL) AND [r].[Name] = N'Admin'
+ERROR 2023-07-30 13:23:29,300 [1    ] Microsoft.EntityFrameworkCore.Query      - An exception occurred while iterating over the results of a query for context type 'CASA.EntityFrameworkCore.IdentityDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method186(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method186(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+DEBUG 2023-07-30 14:27:43,206 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-07-30 14:27:43,433 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2023-07-30 14:27:43,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SelfHost.Startup.SelfHostModule, MDM.Identity.Self-host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDM.Identity.Html.IdentityHtmlModule, MDM.Identity.Html, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.Application.IdentityApplicationModule, MDM.Identity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.Core.IdentityCoreModule, MDM.Identity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDM.AuthorizationModule.AuthorizationModule, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDMPlatform.MDMPlatformCoreModule, MDMPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.EntityFrameworkCore.IdentityEntityFrameworkModule, MDM.Identity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.EntityFrameworkCore.MDMEntityFrameworkModule, MDMPlatform.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,445 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2023-07-30 14:27:43,484 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:27:43,485 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:27:43,485 [1    ] o.Configuration.LanguageManagementConfig - Converted AuthorizationModule (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:27:43,485 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:27:43,647 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Identity.EntityFrameworkCore.IdentityDbContext, MDM.Identity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:27:43,728 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-07-30 14:27:43,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-07-30 14:27:43,788 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-07-30 14:27:43,789 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AuthorizationModule
+DEBUG 2023-07-30 14:27:43,804 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-07-30 14:27:43,808 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-30 14:27:43,813 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AuthorizationModule.MultiTenancy.Tenant, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AuthorizationModule.Authorization.Users.User, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-07-30 14:27:43,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2023-07-30 14:27:43,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Identity.Html.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Users.CreateUserDto
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Users.UserDto
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Sessions.TenantLoginInfoDto
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Sessions.UserLoginInfoDto
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.AuthorizationModule.PermissionDto
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.MultiTenancy.CreateTenantDto
+DEBUG 2023-07-30 14:27:43,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.MultiTenancy.TenantDto
+INFO  2023-07-30 14:27:44,763 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[CreationTime], [e].[CreatorUserId], [e].[DeleterUserId], [e].[DeletionTime], [e].[DisplayName], [e].[IsDeleted], [e].[LastModificationTime], [e].[LastModifierUserId], [e].[Name]
+FROM [Editions] AS [e]
+WHERE [e].[Name] = N'Standard'
+INFO  2023-07-30 14:27:44,894 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (22ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Editions] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+INFO  2023-07-30 14:27:44,935 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:44,977 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,007 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (23ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,021 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,030 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,043 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,051 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,063 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,071 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,090 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,099 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,113 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,122 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,139 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,148 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,161 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,169 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,183 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,191 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,205 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,213 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,226 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,235 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,248 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,256 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:27:45,270 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:27:45,288 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[CreationTime], [r].[CreatorUserId], [r].[DeleterUserId], [r].[DeletionTime], [r].[Description], [r].[DisplayName], [r].[IsDefault], [r].[IsDeleted], [r].[IsStatic], [r].[LastModificationTime], [r].[LastModifierUserId], [r].[Name], [r].[NormalizedName], [r].[TenantId]
+FROM [Roles] AS [r]
+WHERE ([r].[TenantId] IS NULL) AND [r].[Name] = N'Admin'
+INFO  2023-07-30 14:27:45,347 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Roles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+ERROR 2023-07-30 14:27:45,377 [1    ] Microsoft.EntityFrameworkCore.Update     - An exception occurred in the database while saving changes for context type 'Identity.EntityFrameworkCore.IdentityDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'MDMIdentity.dbo.Roles'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:9682e5b3-873a-426f-9bf9-ef44544dd454
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'MDMIdentity.dbo.Roles'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:9682e5b3-873a-426f-9bf9-ef44544dd454
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+DEBUG 2023-07-30 14:30:24,105 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-07-30 14:30:24,233 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2023-07-30 14:30:24,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SelfHost.Startup.SelfHostModule, MDM.Identity.Self-host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDM.Identity.Html.IdentityHtmlModule, MDM.Identity.Html, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.Application.IdentityApplicationModule, MDM.Identity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.Core.IdentityCoreModule, MDM.Identity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDM.AuthorizationModule.AuthorizationModule, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MDMPlatform.MDMPlatformCoreModule, MDMPlatform.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.EntityFrameworkCore.IdentityEntityFrameworkModule, MDM.Identity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Identity.EntityFrameworkCore.MDMEntityFrameworkModule, MDMPlatform.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,243 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2023-07-30 14:30:24,280 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:30:24,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:30:24,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AuthorizationModule (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:30:24,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-30 14:30:24,433 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Identity.EntityFrameworkCore.IdentityDbContext, MDM.Identity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-30 14:30:24,504 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-07-30 14:30:24,537 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-07-30 14:30:24,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-07-30 14:30:24,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AuthorizationModule
+DEBUG 2023-07-30 14:30:24,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-07-30 14:30:24,583 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-30 14:30:24,588 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AuthorizationModule.MultiTenancy.Tenant, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AuthorizationModule.Authorization.Users.User, MDM.AuthorizationModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-07-30 14:30:24,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2023-07-30 14:30:24,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Identity.Html.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-07-30 14:30:24,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Users.CreateUserDto
+DEBUG 2023-07-30 14:30:24,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Users.UserDto
+DEBUG 2023-07-30 14:30:24,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Sessions.TenantLoginInfoDto
+DEBUG 2023-07-30 14:30:24,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.Sessions.UserLoginInfoDto
+DEBUG 2023-07-30 14:30:24,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.AuthorizationModule.PermissionDto
+DEBUG 2023-07-30 14:30:24,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.MultiTenancy.CreateTenantDto
+DEBUG 2023-07-30 14:30:24,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AuthorizationModule.DataTransferObject.MultiTenancy.TenantDto
+INFO  2023-07-30 14:30:25,511 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[CreationTime], [e].[CreatorUserId], [e].[DeleterUserId], [e].[DeletionTime], [e].[DisplayName], [e].[IsDeleted], [e].[LastModificationTime], [e].[LastModifierUserId], [e].[Name]
+FROM [Editions] AS [e]
+WHERE [e].[Name] = N'Standard'
+INFO  2023-07-30 14:30:25,644 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Editions] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+INFO  2023-07-30 14:30:25,682 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,720 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,730 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,742 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,750 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,763 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,770 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,807 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,815 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,827 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,833 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,844 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,851 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,862 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,869 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,888 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,897 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,909 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,931 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,943 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,950 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,961 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,968 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,979 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:25,986 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Languages] AS [l]
+        WHERE ([l].[TenantId] IS NULL) AND [l].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:25,999 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Languages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:26,011 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[CreationTime], [r].[CreatorUserId], [r].[DeleterUserId], [r].[DeletionTime], [r].[Description], [r].[DisplayName], [r].[IsDefault], [r].[IsDeleted], [r].[IsStatic], [r].[LastModificationTime], [r].[LastModifierUserId], [r].[Name], [r].[NormalizedName], [r].[TenantId]
+FROM [Roles] AS [r]
+WHERE ([r].[TenantId] IS NULL) AND [r].[Name] = N'Admin'
+INFO  2023-07-30 14:30:26,065 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Roles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+INFO  2023-07-30 14:30:26,091 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Name]
+FROM [Permissions] AS [p]
+WHERE [p].[Discriminator] = N'RolePermissionSetting' AND ([p].[TenantId] IS NULL) AND [p].[RoleId] = @__adminRoleForHost_Id_0
+INFO  2023-07-30 14:30:26,161 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int64), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 128), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Int64), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 128), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int64), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (Size = 128), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Permissions] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, 0),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13, 1),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, 2),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27, 3)) AS i ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (i.[CreationTime], i.[CreatorUserId], i.[Discriminator], i.[IsGranted], i.[Name], i.[RoleId], i.[TenantId])
+OUTPUT INSERTED.[Id], i._Position;
+INFO  2023-07-30 14:30:26,182 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[AuthenticationSource], [u].[ConcurrencyStamp], [u].[CreationTime], [u].[CreatorUserId], [u].[DeleterUserId], [u].[DeletionTime], [u].[EmailAddress], [u].[EmailConfirmationCode], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[IsLockoutEnabled], [u].[IsPhoneNumberConfirmed], [u].[IsTwoFactorEnabled], [u].[LastModificationTime], [u].[LastModifierUserId], [u].[LockoutEndDateUtc], [u].[Name], [u].[NormalizedEmailAddress], [u].[NormalizedUserName], [u].[Password], [u].[PasswordResetCode], [u].[PhoneNumber], [u].[SecurityStamp], [u].[Surname], [u].[TenantId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE ([u].[TenantId] IS NULL) AND [u].[UserName] = N'admin'
+INFO  2023-07-30 14:30:26,348 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+INFO  2023-07-30 14:30:26,382 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreationTime], [u].[CreatorUserId], [u].[DeleterUserId], [u].[DeletionTime], [u].[EmailAddress], [u].[IsDeleted], [u].[LastModificationTime], [u].[LastModifierUserId], [u].[TenantId], [u].[UserId], [u].[UserLinkId], [u].[UserName]
+FROM [UserAccounts] AS [u]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [u].[IsDeleted] = CAST(0 AS bit)) AND ([u].[TenantId] IS NULL) AND [u].[UserId] = @__eventData_Entity_Id_1
+INFO  2023-07-30 14:30:26,431 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:26,465 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+INFO  2023-07-30 14:30:26,492 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Settings] AS [s]
+        WHERE [s].[Name] = @__name_0 AND ([s].[TenantId] IS NULL) AND ([s].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:26,535 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Settings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+INFO  2023-07-30 14:30:26,545 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Settings] AS [s]
+        WHERE [s].[Name] = @__name_0 AND ([s].[TenantId] IS NULL) AND ([s].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:26,560 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Settings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+INFO  2023-07-30 14:30:26,568 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Settings] AS [s]
+        WHERE [s].[Name] = @__name_0 AND ([s].[TenantId] IS NULL) AND ([s].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2023-07-30 14:30:26,581 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Settings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+INFO  2023-07-30 14:30:26,597 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[ConnectionString], [t].[CreationTime], [t].[CreatorUserId], [t].[DeleterUserId], [t].[DeletionTime], [t].[EditionId], [t].[IsActive], [t].[IsDeleted], [t].[LastModificationTime], [t].[LastModifierUserId], [t].[Name], [t].[TenancyName]
+FROM [Tenants] AS [t]
+WHERE [t].[TenancyName] = N'Default'
+INFO  2023-07-30 14:30:26,604 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[CreationTime], [e].[CreatorUserId], [e].[DeleterUserId], [e].[DeletionTime], [e].[DisplayName], [e].[IsDeleted], [e].[LastModificationTime], [e].[LastModifierUserId], [e].[Name]
+FROM [Editions] AS [e]
+WHERE [e].[Name] = N'Standard'
+INFO  2023-07-30 14:30:26,650 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 1024), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (Size = 64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Tenants] ([ConnectionString], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EditionId], [IsActive], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name], [TenancyName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:26,696 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (34ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[CreationTime], [r].[CreatorUserId], [r].[DeleterUserId], [r].[DeletionTime], [r].[Description], [r].[DisplayName], [r].[IsDefault], [r].[IsDeleted], [r].[IsStatic], [r].[LastModificationTime], [r].[LastModifierUserId], [r].[Name], [r].[NormalizedName], [r].[TenantId]
+FROM [Roles] AS [r]
+WHERE [r].[TenantId] = @___tenantId_0 AND [r].[Name] = N'Admin'
+INFO  2023-07-30 14:30:26,709 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Roles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+INFO  2023-07-30 14:30:26,747 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (34ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Name]
+FROM [Permissions] AS [p]
+WHERE [p].[Discriminator] = N'RolePermissionSetting' AND [p].[TenantId] = @___tenantId_0 AND [p].[RoleId] = @__adminRole_Id_1
+INFO  2023-07-30 14:30:26,774 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int64), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 128), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Int64), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 128), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Permissions] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, 0),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13, 1),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, 2)) AS i ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (i.[CreationTime], i.[CreatorUserId], i.[Discriminator], i.[IsGranted], i.[Name], i.[RoleId], i.[TenantId])
+OUTPUT INSERTED.[Id], i._Position;
+INFO  2023-07-30 14:30:26,813 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (33ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[AuthenticationSource], [u].[ConcurrencyStamp], [u].[CreationTime], [u].[CreatorUserId], [u].[DeleterUserId], [u].[DeletionTime], [u].[EmailAddress], [u].[EmailConfirmationCode], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[IsLockoutEnabled], [u].[IsPhoneNumberConfirmed], [u].[IsTwoFactorEnabled], [u].[LastModificationTime], [u].[LastModifierUserId], [u].[LockoutEndDateUtc], [u].[Name], [u].[NormalizedEmailAddress], [u].[NormalizedUserName], [u].[Password], [u].[PasswordResetCode], [u].[PhoneNumber], [u].[SecurityStamp], [u].[Surname], [u].[TenantId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[TenantId] = @___tenantId_0 AND [u].[UserName] = N'admin'
+INFO  2023-07-30 14:30:26,875 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+INFO  2023-07-30 14:30:26,926 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (47ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreationTime], [u].[CreatorUserId], [u].[DeleterUserId], [u].[DeletionTime], [u].[EmailAddress], [u].[IsDeleted], [u].[LastModificationTime], [u].[LastModifierUserId], [u].[TenantId], [u].[UserId], [u].[UserLinkId], [u].[UserName]
+FROM [UserAccounts] AS [u]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [u].[IsDeleted] = CAST(0 AS bit)) AND [u].[TenantId] = @__eventData_Entity_TenantId_0 AND [u].[UserId] = @__eventData_Entity_Id_1
+INFO  2023-07-30 14:30:26,943 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2023-07-30 14:30:26,958 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+INFO  2023-07-30 14:30:27,043 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [l].[Id], [l].[CreationTime], [l].[CreatorUserId], [l].[DeleterUserId], [l].[DeletionTime], [l].[DisplayName], [l].[Icon], [l].[IsDeleted], [l].[IsDisabled], [l].[LastModificationTime], [l].[LastModifierUserId], [l].[Name], [l].[TenantId]
+FROM [Languages] AS [l]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [l].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR ([l].[TenantId] IS NULL))
+INFO  2023-07-30 14:30:27,122 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[CreationTime], [s].[CreatorUserId], [s].[LastModificationTime], [s].[LastModifierUserId], [s].[Name], [s].[TenantId], [s].[UserId], [s].[Value]
+FROM [Settings] AS [s]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR ([s].[TenantId] IS NULL)) AND ([s].[UserId] IS NULL) AND ([s].[TenantId] IS NULL)
+INFO  2023-07-30 14:30:27,135 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2023-07-30 14:30:27,891 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://localhost:5054'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+INFO  2023-07-30 14:30:27,898 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: http://localhost:80
+INFO  2023-07-30 14:30:27,899 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: http://localhost:443
+INFO  2023-07-30 14:30:27,902 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2023-07-30 14:30:27,902 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2023-07-30 14:30:27,904 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\Workspace\MDMPlatform\src\services\mdm-identity-service\MDM.Identity.Self-host
+INFO  2023-07-30 14:30:29,633 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:30:34,667 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:30:39,689 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:30:44,714 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:30:45,660 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/ - -
+INFO  2023-07-30 14:30:46,032 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host)'
+INFO  2023-07-30 14:30:46,060 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Identity.Web.Host.Controllers.HomeController (MDM.Identity.Self-host).
+INFO  2023-07-30 14:30:46,153 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host) - Validation state: Valid
+INFO  2023-07-30 14:30:46,161 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5219ms.
+INFO  2023-07-30 14:30:46,296 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-07-30 14:30:46,342 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2023-07-30 14:30:46,348 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host) in 283.489ms
+INFO  2023-07-30 14:30:46,349 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host)'
+INFO  2023-07-30 14:30:46,358 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost/ - - - 302 0 - 700.2463ms
+INFO  2023-07-30 14:30:46,363 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/swagger - -
+INFO  2023-07-30 14:30:46,382 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost/swagger - - - 301 0 - 19.3440ms
+INFO  2023-07-30 14:30:46,386 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/swagger/index.html - -
+ERROR 2023-07-30 14:30:46,416 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HMSGPRHMM0IO", Request id "0HMSGPRHMM0IO:00000003": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at System.IO.StreamReader..ctor(Stream stream)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2023-07-30 14:30:46,418 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost/swagger/index.html - - - 500 0 - 31.6154ms
+INFO  2023-07-30 14:30:49,736 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:30:54,770 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:30:56,371 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/ - -
+INFO  2023-07-30 14:30:56,377 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host)'
+INFO  2023-07-30 14:30:56,386 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Identity.Web.Host.Controllers.HomeController (MDM.Identity.Self-host).
+INFO  2023-07-30 14:30:56,411 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host) - Validation state: Valid
+INFO  2023-07-30 14:30:56,412 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.0296ms.
+INFO  2023-07-30 14:30:56,433 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-07-30 14:30:56,448 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2023-07-30 14:30:56,449 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host) in 62.475ms
+INFO  2023-07-30 14:30:56,450 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Identity.Web.Host.Controllers.HomeController.Index (MDM.Identity.Self-host)'
+INFO  2023-07-30 14:30:56,452 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost/ - - - 302 0 - 82.5536ms
+INFO  2023-07-30 14:30:56,460 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/swagger/index.html - -
+ERROR 2023-07-30 14:30:56,466 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HMSGPRHMM0IO", Request id "0HMSGPRHMM0IO:00000005": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at System.IO.StreamReader..ctor(Stream stream)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2023-07-30 14:30:56,467 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost/swagger/index.html - - - 500 0 - 7.2112ms
+INFO  2023-07-30 14:30:58,120 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/swagger/index.html - -
+ERROR 2023-07-30 14:30:58,126 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HMSGPRHMM0IO", Request id "0HMSGPRHMM0IO:00000006": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at System.IO.StreamReader..ctor(Stream stream)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2023-07-30 14:30:58,127 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost/swagger/index.html - - - 500 0 - 7.0937ms
+INFO  2023-07-30 14:30:59,796 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:04,815 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:09,841 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:14,863 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:19,909 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (19ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:24,957 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:29,991 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:35,030 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:40,063 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:45,086 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]
+INFO  2023-07-30 14:31:50,117 [14   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [b].[Id], [b].[CreationTime], [b].[CreatorUserId], [b].[IsAbandoned], [b].[JobArgs], [b].[JobType], [b].[LastTryTime], [b].[NextTryTime], [b].[Priority], [b].[TryCount]
+FROM [BackgroundJobs] AS [b]
+WHERE [b].[IsAbandoned] = CAST(0 AS bit) AND [b].[NextTryTime] <= @__Now_0
+ORDER BY [b].[Priority] DESC, [b].[TryCount], [b].[NextTryTime]

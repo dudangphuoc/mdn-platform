@@ -1,0 +1,136 @@
+﻿using System.ComponentModel;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Xml.Serialization;
+
+namespace MDMLibrary.Crypto
+{
+    public static class CryptoNetUtils
+    {
+        #region External methods
+        public static RSAParameters GetParameters(X509Certificate2? certificate, KeyType keyType)
+        {
+            return certificate!.GetRSAPrivateKey()!.ExportParameters(keyType == KeyType.PrivateKey);
+        }
+
+        public static X509Certificate2? GetCertificateFromStore(StoreName storeName, StoreLocation storeLocation, string certName)
+        {
+            X509Store store = new X509Store(storeName, storeLocation);
+            return GetCertificateFromStore(store, certName);
+        }
+
+        public static X509Certificate2? GetCertificateFromStore(StoreName storeName, string certName)
+        {
+            X509Store store = new X509Store(storeName);
+            return GetCertificateFromStore(store, certName);
+        }
+
+        public static X509Certificate2? GetCertificateFromStore(StoreLocation storeLocation, string certName)
+        {
+            X509Store store = new X509Store(storeLocation);
+            return GetCertificateFromStore(store, certName);
+        }
+
+        public static X509Certificate2? GetCertificateFromStore(string certName)
+        {
+            X509Store store = new X509Store(StoreLocation.CurrentUser);
+            return GetCertificateFromStore(store, certName);
+        }
+
+        private static X509Certificate2? GetCertificateFromStore(X509Store store, string certName)
+        {
+            try
+            {
+                store.Open(OpenFlags.ReadOnly);
+
+                X509Certificate2Collection certCollection = store.Certificates;
+                X509Certificate2Collection currentCerts = certCollection.Find(X509FindType.FindByTimeValid, DateTime.Now, false);
+                X509Certificate2Collection signingCert = currentCerts.Find(X509FindType.FindBySubjectDistinguishedName, certName, false);
+                return signingCert.Count == 0 ? null : signingCert[0];
+            }
+            finally
+            {
+                store.Close();
+            }
+        }
+
+        public static string BytesToString(byte[] bytes)
+        {
+            return Encoding.ASCII.GetString(bytes);
+        }
+
+        public static byte[] StringToBytes(string content)
+        {
+            return Encoding.ASCII.GetBytes(content);
+        }
+
+
+        public static string Base64Encode(string plainText)
+        {
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+            return System.Convert.ToBase64String(plainTextBytes);
+        }
+
+        public static string Base64Decode(string base64EncodedData)
+        {
+            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+        }
+
+        #endregion
+
+        #region Internal methods
+        internal static byte[] LoadFileToBytes(string filename)
+        {
+            return File.ReadAllBytes(filename);
+        }
+
+        internal static string LoadFileToString(string filename)
+        {
+            return BytesToString(LoadFileToBytes(filename));
+        }
+
+        internal static void SaveKey(string filename, byte[] bytes)
+        {
+            using var fs = new FileStream(filename, FileMode.Create, FileAccess.Write);
+            fs.Write(bytes, 0, bytes.Length);
+        }
+
+        internal static void SaveKey(string filename, string content)
+        {
+            var bytes = StringToBytes(content);
+            SaveKey(filename, bytes);
+        }
+
+        internal static string ExportAndSaveAesKey(Aes aes)
+        {
+            AesKeyValue aesKeyValue = new AesKeyValue { Key = aes.Key, Iv = aes.IV };
+            XmlSerializer serializer = new XmlSerializer(typeof(AesKeyValue));
+            StringWriter writer = new StringWriter();
+            serializer.Serialize(writer, aesKeyValue);
+            writer.Close();
+            return writer.ToString();
+        }
+
+        internal static AesKeyValue ImportAesKey(string aes)
+        {
+            XmlSerializer deserializer = new XmlSerializer(typeof(AesKeyValue));
+            StringReader reader = new StringReader(aes);
+            return (AesKeyValue)deserializer.Deserialize(reader)!;
+        }
+
+        internal static string GetDescription(KeyType value)
+        {
+            var fi = value.GetType().GetField(value.ToString());
+            var attributes = (DescriptionAttribute[])fi!.GetCustomAttributes(typeof(DescriptionAttribute), false);
+            return attributes.Length > 0 ? attributes[0].Description : value.ToString();
+        }
+
+        internal static KeyType GetKeyType(RSACryptoServiceProvider rsa)
+        {
+            return rsa.PublicOnly ? KeyType.PublicKey : KeyType.PrivateKey;
+        }
+        #endregion
+    }
+}
