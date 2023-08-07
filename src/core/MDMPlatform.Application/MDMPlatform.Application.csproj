@@ -14,4 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MDMPlatform.Core\MDMPlatform.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Request\CommonService\Command\" />
+  </ItemGroup>
 </Project>

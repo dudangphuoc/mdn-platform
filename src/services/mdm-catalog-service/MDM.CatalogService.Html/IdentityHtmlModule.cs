@@ -1,29 +1,27 @@
-﻿using Abp.Modules;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using MDMPlatform.Configuration;
-using MDM.Shared.AuthorizationModule;
-using Abp.Zero.Configuration;
-using Abp.AspNetCore.Configuration;
-using Identity.Application;
+﻿using Abp.AspNetCore;
+using Abp.AspNetCore.SignalR;
+using Abp.Modules;
 using Abp.Reflection.Extensions;
-using MDMPlatform;
+using Abp.Zero.Configuration;
+using MDM.CatalogService.Application;
+using MDM.CatalogService.EntityFrameworkCore;
+using MDM.CatalogService.Html.Authentication.JwtBearer;
+using MDM.Shared.AuthorizationModule;
+using MDMPlatform.Configuration;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
-using Abp.AspNetCore;
-using Identity.Html.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Abp.AspNetCore.SignalR;
-using Identity.EntityFrameworkCore;
 
-namespace MDM.Identity.Html
+namespace MDM.CatalogService.Html
 {
     [DependsOn(
-        typeof(IdentityApplicationModule),
-        typeof(IdentityEntityFrameworkModule),
-        typeof(AbpAspNetCoreModule),
-       typeof(AbpAspNetCoreSignalRModule)
-    )]
+       typeof(ApplicationModule),
+       typeof(CatalogEntityFrameworkModule),
+       typeof(AbpAspNetCoreModule),
+      typeof(AbpAspNetCoreSignalRModule)
+   )]
     public class IdentityHtmlModule : AbpModule
     {
         private readonly IWebHostEnvironment _env;
@@ -43,10 +41,11 @@ namespace MDM.Identity.Html
 
             // Use database for language management
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
-            Configuration.Modules.AbpAspNetCore()
-                 .CreateControllersForAppServices(
-                     typeof(IdentityApplicationModule).GetAssembly()
-                 );
+
+            //Configuration.Modules.AbpAspNetCore()
+            //     .CreateControllersForAppServices(
+            //         typeof(IdentityApplicationModule).GetAssembly()
+            //     );
 
             ConfigureTokenAuth();
         }

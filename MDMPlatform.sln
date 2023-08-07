@@ -36,25 +36,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.AuthorizationModule", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Common", "src\library\MDM.Common\MDM.Common.csproj", "{4CB31D45-263C-47AF-8D8A-38AEF431BA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Identity.Core", "src\services\mdm-identity-service\MDM.Identity.Core\MDM.Identity.Core.csproj", "{99433EF1-8E8F-4A24-B7AF-2112ABE3DD33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Identity.Core", "src\services\mdm-identity-service\MDM.Identity.Core\MDM.Identity.Core.csproj", "{99433EF1-8E8F-4A24-B7AF-2112ABE3DD33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Identity.Application", "src\services\mdm-identity-service\MDM.Identity.Application\MDM.Identity.Application.csproj", "{1F041072-8033-4FA2-B40A-AC9431CD4DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Identity.Application", "src\services\mdm-identity-service\MDM.Identity.Application\MDM.Identity.Application.csproj", "{1F041072-8033-4FA2-B40A-AC9431CD4DE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Identity.Html", "src\services\mdm-identity-service\MDM.Identity.Html\MDM.Identity.Html.csproj", "{D4B613C9-8FD6-4F7D-B06F-CFB76484E889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Identity.Html", "src\services\mdm-identity-service\MDM.Identity.Html\MDM.Identity.Html.csproj", "{D4B613C9-8FD6-4F7D-B06F-CFB76484E889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Identity.Migrator", "src\services\mdm-identity-service\MDM.Identity.Migrator\MDM.Identity.Migrator.csproj", "{28ED4F8B-EE4E-4B24-AC8E-04379459F30E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Identity.Migrator", "src\services\mdm-identity-service\MDM.Identity.Migrator\MDM.Identity.Migrator.csproj", "{28ED4F8B-EE4E-4B24-AC8E-04379459F30E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Identity.EntityFrameworkCore", "src\services\mdm-identity-service\MDM.Identity.EntityFrameworkCore\MDM.Identity.EntityFrameworkCore.csproj", "{6BDA7F1B-C46F-4530-BC1A-99172C7243D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Identity.EntityFrameworkCore", "src\services\mdm-identity-service\MDM.Identity.EntityFrameworkCore\MDM.Identity.EntityFrameworkCore.csproj", "{6BDA7F1B-C46F-4530-BC1A-99172C7243D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Identity.Self-host", "src\services\mdm-identity-service\MDM.Identity.Self-host\MDM.Identity.Self-host.csproj", "{25E36927-2AF4-4643-ABF9-E443593D31B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Identity.Self-host", "src\services\mdm-identity-service\MDM.Identity.Self-host\MDM.Identity.Self-host.csproj", "{25E36927-2AF4-4643-ABF9-E443593D31B2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDMPlatform.EntityFrameworkCore", "src\core\MDMPlatform.EntityFrameworkCore\MDMPlatform.EntityFrameworkCore.csproj", "{BDCCBACC-562B-46D1-B85B-985656BF5ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.Shared", "src\library\MDM.Shared\MDM.Shared.csproj", "{7BB14E1D-B349-4967-9269-2E5644B1FE6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.Shared", "src\library\MDM.Shared\MDM.Shared.csproj", "{7BB14E1D-B349-4967-9269-2E5644B1FE6E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{42306EAC-FACC-4F4E-B7F8-45D781024B76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDMIdentity.Tests", "src\services\mdm-identity-service\MDMIdentity.Tests\MDMIdentity.Tests.csproj", "{B4D40EA8-9173-4CA2-954E-DA0E2D0C2C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDMIdentity.Tests", "src\services\mdm-identity-service\MDMIdentity.Tests\MDMIdentity.Tests.csproj", "{B4D40EA8-9173-4CA2-954E-DA0E2D0C2C0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mdm-catalog-service", "mdm-catalog-service", "{79935AD7-35A4-419E-98BB-F93124EA9C88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.CatalogService.Self-host", "src\services\mdm-catalog-service\MDM.CatalogService.Self-host\MDM.CatalogService.Self-host.csproj", "{91B89DF7-EFD9-41CB-B28E-050C6E14E4C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDM.CatalogService.Html", "src\services\mdm-catalog-service\MDM.CatalogService.Html\MDM.CatalogService.Html.csproj", "{D1AB350A-1BF6-46C8-AF50-B3BBF6591AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.CatalogService.Core", "src\services\mdm-catalog-service\MDM.CatalogService.Core\MDM.CatalogService.Core.csproj", "{61DCC99F-61B8-45B5-B6F6-D7133EA2A237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.CatalogService.Application", "src\services\mdm-catalog-service\MDM.CatalogService.Application\MDM.CatalogService.Application.csproj", "{D02D553C-6632-40B4-8CE2-E629615E4F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDM.CatalogService.EntityFrameworkCore", "src\services\mdm-catalog-service\MDM.CatalogService.EntityFrameworkCore\MDM.CatalogService.EntityFrameworkCore.csproj", "{57296551-65CD-4326-9F13-3A0E5F453C47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -126,6 +138,26 @@ Global
 		{B4D40EA8-9173-4CA2-954E-DA0E2D0C2C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D40EA8-9173-4CA2-954E-DA0E2D0C2C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D40EA8-9173-4CA2-954E-DA0E2D0C2C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B89DF7-EFD9-41CB-B28E-050C6E14E4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B89DF7-EFD9-41CB-B28E-050C6E14E4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B89DF7-EFD9-41CB-B28E-050C6E14E4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B89DF7-EFD9-41CB-B28E-050C6E14E4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AB350A-1BF6-46C8-AF50-B3BBF6591AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AB350A-1BF6-46C8-AF50-B3BBF6591AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AB350A-1BF6-46C8-AF50-B3BBF6591AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AB350A-1BF6-46C8-AF50-B3BBF6591AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DCC99F-61B8-45B5-B6F6-D7133EA2A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DCC99F-61B8-45B5-B6F6-D7133EA2A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DCC99F-61B8-45B5-B6F6-D7133EA2A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DCC99F-61B8-45B5-B6F6-D7133EA2A237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02D553C-6632-40B4-8CE2-E629615E4F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02D553C-6632-40B4-8CE2-E629615E4F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02D553C-6632-40B4-8CE2-E629615E4F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02D553C-6632-40B4-8CE2-E629615E4F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57296551-65CD-4326-9F13-3A0E5F453C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57296551-65CD-4326-9F13-3A0E5F453C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57296551-65CD-4326-9F13-3A0E5F453C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57296551-65CD-4326-9F13-3A0E5F453C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +186,12 @@ Global
 		{7BB14E1D-B349-4967-9269-2E5644B1FE6E} = {159139A8-766B-462D-A39C-B61D9BE4391E}
 		{42306EAC-FACC-4F4E-B7F8-45D781024B76} = {0171F474-23DB-48F2-9283-B8C3C9580CA3}
 		{B4D40EA8-9173-4CA2-954E-DA0E2D0C2C0B} = {42306EAC-FACC-4F4E-B7F8-45D781024B76}
+		{79935AD7-35A4-419E-98BB-F93124EA9C88} = {C909FD11-008E-41AF-AF4F-E27556B99204}
+		{91B89DF7-EFD9-41CB-B28E-050C6E14E4C4} = {79935AD7-35A4-419E-98BB-F93124EA9C88}
+		{D1AB350A-1BF6-46C8-AF50-B3BBF6591AA4} = {79935AD7-35A4-419E-98BB-F93124EA9C88}
+		{61DCC99F-61B8-45B5-B6F6-D7133EA2A237} = {79935AD7-35A4-419E-98BB-F93124EA9C88}
+		{D02D553C-6632-40B4-8CE2-E629615E4F29} = {79935AD7-35A4-419E-98BB-F93124EA9C88}
+		{57296551-65CD-4326-9F13-3A0E5F453C47} = {79935AD7-35A4-419E-98BB-F93124EA9C88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A55C749-0BFF-4EFD-8499-12A2CB3B5B07}

@@ -5,7 +5,6 @@ using Abp.Castle.Logging.Log4Net;
 using Abp.Dependency;
 using Abp.Extensions;
 using Abp.Json;
-using AuthorizationModule.Identity;
 using Castle.Facilities.Logging;
 using MDMPlatform.Configuration;
 using Microsoft.OpenApi.Models;
@@ -45,7 +44,7 @@ namespace SelfHost.Startup
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
             });
 
-            IdentityRegistrar.Register(services);
+            //IdentityRegistrar.Register(services);
             AuthConfigurer.Configure(services, _appConfiguration);
             services.AddSignalR();
 

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\MDMPlatform.EntityFrameworkCore\MDMPlatform.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\MDM.CatalogService.Core\MDM.CatalogService.Core.csproj" />
+  </ItemGroup>
+
+</Project>

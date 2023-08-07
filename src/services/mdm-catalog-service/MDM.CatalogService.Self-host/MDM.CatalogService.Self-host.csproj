@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<RootNamespace>"Self-host"</RootNamespace>
+	<RootNamespace>MDM.CatalogService.Self_host</RootNamespace>
     <UserSecretsId>0c3677ab-2294-4a0c-97f4-96ee8c5748f0</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..\..</DockerfileContext>
@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MDM.Identity.Html\MDM.Identity.Html.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Include="wwwroot\swagger\ui\abp.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -33,6 +29,10 @@
     <EmbeddedResource Include="wwwroot\swagger\ui\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MDM.CatalogService.Html\MDM.CatalogService.Html.csproj" />
   </ItemGroup>
 
   <ItemGroup>
